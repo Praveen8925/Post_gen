@@ -1,0 +1,9 @@
+pydantic 
+fastapi
+uvicorn
+langchain
+langchain-ollama
+beautifulsoup4
+requests
+playwright
+duckduckgo-search

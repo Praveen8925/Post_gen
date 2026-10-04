@@ -1,0 +1,33 @@
+    # Core
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+python-dotenv==1.1.0
+pydantic==2.11.3
+pydantic-settings==2.9.1
+python-multipart==0.0.20
+
+# LangChain + Ollama
+langchain==0.3.25
+langchain-core==0.3.58
+langchain-ollama==0.3.2
+langchain-community==0.3.23
+
+# Web scraping
+beautifulsoup4==4.13.4
+requests==2.32.3
+playwright==1.51.0
+
+# Document parsing
+pypdf==5.4.0
+python-docx==1.1.2
+
+# Web search
+duckduckgo-search==8.0.1
+
+# MCP
+mcp==1.6.0
+
+# RAG — LlamaIndex (chromadb installed separately, see README)
+llama-index==0.12.28
+llama-index-embeddings-ollama==0.5.0
+llama-index-llms-ollama==0.5.0
